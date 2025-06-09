@@ -1,0 +1,265 @@
+body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1012%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(38%2c 38%2c 38%2c 1)'%3e%3c/rect%3e%3cpath d='M -386.11410819382866%2c177 C -290.11%2c216.4 -98.11%2c380 93.88589180617137%2c374 C 285.89%2c368 381.89%2c145.2 573.8858918061713%2c147 C 765.89%2c148.8 861.89%2c391 1053.8858918061715%2c383 C 1245.89%2c375 1456.66%2c110.6 1533.8858918061715%2c107 C 1611.11%2c103.4 1458.78%2c313.4 1440%2c365' stroke='rgba(165%2c 51%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -906.4996339671144%2c431 C -810.5%2c365.8 -618.5%2c103.2 -426.4996339671144%2c105 C -234.5%2c106.8 -138.5%2c435 53.50036603288561%2c440 C 245.5%2c445 341.5%2c124.2 533.5003660328856%2c130 C 725.5%2c135.8 832.2%2c439.2 1013.5003660328856%2c469 C 1194.8%2c498.8 1354.7%2c317 1440%2c279' stroke='rgba(165%2c 51%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -450.0122153872601%2c423 C -354.01%2c352.2 -162.01%2c62.8 29.987784612739894%2c69 C 221.99%2c75.2 317.99%2c452.6 509.9877846127399%2c454 C 701.99%2c455.4 797.99%2c75 989.9877846127399%2c76 C 1181.99%2c77 1379.99%2c437.6 1469.98778461274%2c459 C 1559.99%2c480.4 1446%2c238.2 1440%2c183' stroke='rgba(165%2c 51%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -465.3527210536629%2c274 C -369.35%2c286.2 -177.35%2c339.4 14.647278946337128%2c335 C 206.65%2c330.6 302.65%2c230.2 494.6472789463371%2c252 C 686.65%2c273.8 782.65%2c480.8 974.6472789463371%2c444 C 1166.65%2c407.2 1361.58%2c99.4 1454.647278946337%2c68 C 1547.72%2c36.6 1442.93%2c243.2 1440%2c287' stroke='rgba(165%2c 51%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -927.5424878687214%2c428 C -831.54%2c383.6 -639.54%2c194.4 -447.5424878687214%2c206 C -255.54%2c217.6 -159.54%2c477.4 32.45751213127858%2c486 C 224.46%2c494.6 320.46%2c271.2 512.4575121312786%2c249 C 704.46%2c226.8 806.95%2c374.2 992.4575121312786%2c375 C 1177.97%2c375.8 1350.49%2c277.4 1440%2c253' stroke='rgba(165%2c 51%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -620.985559991577%2c502 C -524.99%2c422.2 -332.99%2c132.8 -140.98555999157708%2c103 C 51.01%2c73.2 147.01%2c332.4 339.0144400084229%2c353 C 531.01%2c373.6 627.01%2c196.4 819.014440008423%2c206 C 1011.01%2c215.6 1174.82%2c421.4 1299.014440008423%2c401 C 1423.21%2c380.6 1411.8%2c163.4 1440%2c104' stroke='rgba(165%2c 51%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -741.2381255801943%2c99 C -645.24%2c177.4 -453.24%2c497.4 -261.2381255801942%2c491 C -69.24%2c484.6 26.76%2c98 218.7618744198058%2c67 C 410.76%2c36 506.76%2c324.6 698.7618744198057%2c336 C 890.76%2c347.4 1030.51%2c110.8 1178.7618744198057%2c124 C 1327.01%2c137.2 1387.75%2c346.4 1440%2c402' stroke='rgba(165%2c 51%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1012'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    min-height: 100vh !important;
+    /* Si el body no tiene suficiente altura, la imagen SVG no se muestra. */
+
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+
+}
+
+.navbar {
+    background-color: aliceblue !important;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+}
+
+.navbar-nav {
+    gap: 20px !important;
+    /* Espacio horizontal entre los nav-item */
+    display: flex !important;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.offcanvas.offcanvas-end {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='400' height='800' preserveAspectRatio='none' viewBox='0 0 400 800'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1031%26quot%3b)' fill='none'%3e%3crect width='400' height='800' x='0' y='0' fill='rgba(20%2c 20%2c 20%2c 1)'%3e%3c/rect%3e%3cpath d='M255.47-31.68C198.62 133.78 260.82 635.55 160.46 661.65 60.11 687.75 58.37 333.91-29.55 269.65' stroke='rgba(176%2c 51%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M241.68-100.35C166.7-25.74 182.25 286.1 92.32 295.51 2.4 304.92 0.07 124.43-57.03 103.51' stroke='rgba(176%2c 51%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M326.08-52.37C241.43 41.93 321.05 289.27 161.98 427.2 2.91 565.13 70.08 679.09-2.12 723.2' stroke='rgba(176%2c 51%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M257.3-8.26C197.8 105.21 250.39 480.55 153 493.52 55.61 506.49 23.62 257.8-55.6 229.52' stroke='rgba(176%2c 51%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M190.44-158.18C126.79-42.29 158.2 336.6 78.1 358.61-2.01 380.62 20.62 135.62-34.25 86.61' stroke='rgba(176%2c 51%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1031'%3e%3crect width='400' height='800' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e") !important;
+    /* Cambia este color al que prefieras */
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+}
+
+.offcanvas-header,
+.offcanvas-body {
+    background-color: transparent !important;
+    /* Si quieres que el fondo del header y body sea igual */
+}
+
+body,
+.navbar,
+.offcanvas,
+.offcanvas-header,
+.offcanvas-body,
+.dropdown-menu,
+.dropdown-item,
+.form-control,
+.btn,
+.nav-link,
+.navbar-brand {
+    color: #e0aaff !important;
+    /* Cambia este color al que prefieras */
+}
+
+.dropdown-item {
+    color: #e0aaff !important;
+}
+
+.form-control {
+    color: #e0aaff !important;
+    background-color: #22223b !important;
+    border-color: #e0aaff !important;
+}
+
+.btn,
+.btn-outline-success {
+    color: #e0aaff !important;
+    border-color: #e0aaff !important;
+}
+
+.btn-outline-success:hover {
+    background-color: #e0aaff !important;
+    color: #22223b !important;
+}
+
+.carrito-container {
+    top: 10px;
+    right: 10px;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 0 !important;
+    /* Elimina el margin individual, usa gap en su lugar */
+    gap: 10px !important;
+    border: 1px solid rebeccapurple !important;
+    border-radius: 5px !important;
+    padding: 5px !important;
+    background-color: rgba(46, 30, 48, 0.8) !important;
+}
+
+.nav-item:hover {
+    background-color: rgba(90, 59, 94, 0.9) !important;
+}
+
+.carrusel-container {
+    max-width: 600px;
+    margin: 40px auto 0 auto;
+    padding: 0 16px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrusel-container .carousel-inner,
+.carrusel-container .carousel-item {
+    height: 100%;
+    max-height: 600px;
+}
+
+.carrusel-container img {
+    width: 500px;
+    height: 600px;
+    object-fit: contain;
+    background: #22223b;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+
+main {
+    margin-top: 200px !important;
+}
+
+.col-12.col-md-6 p {
+    font-size: 1.35rem !important;
+    line-height: 2.1 !important;
+    font-weight: 500;
+}
+
+.custom-card {
+    width: 800px;
+    min-height: 420px;
+    background: rgba(34, 34, 59, 0.95);
+    border-radius: 18px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.4s cubic-bezier(.25,.8,.25,1), box-shadow 0.4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 32px 0;
+}
+
+.animated-card:hover {
+    transform: translateY(-12px) scale(1.04) rotate(-1deg);
+    box-shadow: 0 16px 40px 0 rgba(31, 38, 135, 0.45);
+}
+
+.custom-card-img {
+    width: 100%;
+    height: 220px;
+    background: #22223b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: filter 0.4s;
+}
+
+.animated-card:hover .custom-card-img {
+    filter: brightness(1.1) saturate(1.2);
+}
+
+.custom-card-title {
+    color: #e0aaff;
+    font-size: 1.5rem;
+    margin: 18px 0 8px 0;
+    text-align: center;
+}
+
+.custom-card-body {
+    padding: 0 18px 18px 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.custom-card-text {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.custom-card-link {
+    color: #e0aaff !important;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.custom-card-link:hover {
+    color: #a533c2 !important;
+}
+
+
+
+
+
+.h1-productos {
+    color: #e0aaff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.product-card {
+    background: linear-gradient(135deg, #232526 0%, #414345 100%);
+    border-radius: 18px;
+    box-shadow: 0 6px 24px 0 rgba(34, 34, 59, 0.25);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 2px solid #e0aaff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 370px;
+}
+.product-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 16px 40px 0 rgba(34, 34, 59, 0.35);
+    border-color: #a533c2;
+}
+.product-card-img {
+    width: 100%;
+    height: 200px;
+    background: #fff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 2px solid #e0aaff;
+}
+.product-card-body {
+    padding: 18px 12px 12px 12px;
+    width: 100%;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-card-title {
+    color: #e0aaff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.product-card-btn {
+    background: #a533c2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 0;
+    width: 100%;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: auto;
+    transition: background 0.2s;
+}
+.product-card-btn:hover {
+    background: #e0aaff;
+    color: #232526;
+}
