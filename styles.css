@@ -58,9 +58,14 @@ body,
 }
 
 .form-control {
-    color: #e0aaff !important;
+    color: #fff !important;
     background-color: #22223b !important;
     border-color: #e0aaff !important;
+}
+
+.form-control::placeholder {
+    color: #e0aaff !important;
+    opacity: 1;
 }
 
 .btn,

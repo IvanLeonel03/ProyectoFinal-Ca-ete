@@ -90,4 +90,22 @@ function initProductosPage() {
   });
 }
 
+// Inicializa la página del carrito y el formulario de compra
+initCarritoPage();
+// Manejo del formulario de compra (sin esperar DOMContentLoaded)
+var form = document.getElementById('form-compra');
+if (form) {
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    Swal.fire({
+      icon: 'success',
+      title: '¡Compra confirmada!',
+      text: 'Gracias por tu compra, ' + document.getElementById('nombre').value + '!',
+    }).then(() => {
+      localStorage.removeItem('carritoNike');
+      window.location.href = '../index.html';
+    });
+  });
+}
+
 

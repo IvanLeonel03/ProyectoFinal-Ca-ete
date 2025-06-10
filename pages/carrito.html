@@ -53,7 +53,7 @@
       </div>
     </nav>
   </header>
-  <main class="container my-5 pt-5 animate__animated animate__fadeIn">
+  <main class="container my-5 pt-5" style="position: static !important;">
     <h2 class="text-center mb-4">Carrito de Compras</h2>
     <div class="row justify-content-center">
       <div class="col-12 col-lg-10">
@@ -95,15 +95,15 @@
             <form id="form-compra">
               <div class="mb-3">
                 <label for="nombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="nombre" value="Juan Pérez" required>
+                <input type="text" class="form-control" id="nombre" value="Juan Pérez" required autocomplete="off" tabindex="1">
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" value="juan@mail.com" required>
+                <input type="email" class="form-control" id="email" value="juan@mail.com" required autocomplete="off" tabindex="2">
               </div>
               <div class="mb-3">
                 <label for="direccion" class="form-label">Dirección</label>
-                <input type="text" class="form-control" id="direccion" value="Calle Falsa 123" required>
+                <input type="text" class="form-control" id="direccion" value="Calle Falsa 123" required autocomplete="off" tabindex="3">
               </div>
               <button type="submit" class="btn btn-primary">Confirmar compra</button>
             </form>
@@ -124,22 +124,6 @@
     integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
   <script src="../index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <script>
-    // Inicializa la página del carrito y el formulario de compra
-    initCarritoPage();
-    // Manejo del formulario de compra
-    document.getElementById('form-compra').addEventListener('submit', function(e) {
-      e.preventDefault();
-      Swal.fire({
-        icon: 'success',
-        title: '¡Compra confirmada!',
-        text: 'Gracias por tu compra, ' + document.getElementById('nombre').value + '!',
-      }).then(() => {
-        localStorage.removeItem('carritoNike');
-        window.location.href = '../index.html';
-      });
-    });
-  </script>
 </body>
 
 </html>
