@@ -1,49 +1,27 @@
 // productos.js
-// Simulación de datos de productos (puedes agregar más productos aquí)
-const productosNike = [
-  {
-    nombre: "Air Jordan 1 Mid",
-    precio: 199999,
-    imagen: "../assets/Productos/1055509-1000-1000.webp"
-  },
-  {
-    nombre: "Jordan Spizike Low",
-    precio: 199999,
-    imagen: "../assets/Productos/1195384-1000-1000.webp"
-  },
-  {
-    nombre: "Jordan Spizike Low",
-    precio: 199999,
-    imagen: "../assets/Productos/1195411-1000-1000.webp"
-  },
-  {
-    nombre: "Air Jordan 1 Low SE",
-    precio: 199999,
-    imagen: "../assets/Productos/1252206-1000-1000.webp"
-  },
-  {
-    nombre: "Air Jordan 1 Mid",
-    precio: 199999,
-    imagen: "../assets/Productos/1264443-1000-1000.webp"
-  },
-  {
-    nombre: "Jordan Spizike Low",
-    precio: 199999,
-    imagen: "../assets/Productos/1310921-1000-1000.webp"
-  },
-  {
-    nombre: "Air Jordan 1 Mid SE",
-    precio: 199999,
-    imagen: "../assets/Productos/1336205-1000-1000.webp"
-  },
-  {
-    nombre: "Air Jordan 1 Low",
-    precio: 199999,
-    imagen: "../assets/Productos/844397-1000-1000.webp"
-  },
-  {
-    nombre: "Air Jordan 1 Low",
-    precio: 199999,
-    imagen: "../assets/Productos/869515-1000-1000.webp"
-  }
-];
+// Ahora usamos fetch para obtener los productos desde un archivo JSON externo
+fetch('productos.json')
+  .then(response => response.json())
+  .then(productosNike => {
+    // Renderizar productos dinámicamente desde productosNike
+    const productosContainer = document.getElementById('productos-container');
+    productosNike.forEach(producto => {
+      const col = document.createElement('div');
+      col.className = 'col-12 col-sm-6 col-md-4 col-lg-3';
+      col.innerHTML = `
+        <div class="product-card h-100">
+          <div class="product-card-img" style="background-image: url('${producto.imagen}');"></div>
+          <div class="product-card-body">
+            <h3 class="product-card-title">${producto.nombre}</h3>
+            <h4>$${producto.precio.toLocaleString()}</h4>
+            <button class="product-card-btn">Añadir al carrito</button>
+          </div>
+        </div>
+      `;
+      productosContainer.appendChild(col);
+    });
+    initProductosPage();
+  })
+  .catch(error => {
+    console.error('Error al cargar los productos:', error);
+  });
